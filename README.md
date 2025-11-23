@@ -9,6 +9,12 @@ Next steps:
 - Run EDA in `notebooks/01_eda.ipynb` to inspect data, churn rate, missingness, and feature types.
 - Build a baseline Logistic Regression pipeline in `src/models/train.py`.
 
+Running EDA:
+- From project root: `cd /Users/tobiomotayo/Developer/ml/churn`
+- Activate venv: `source .venv/bin/activate`
+- Launch Jupyter: `jupyter notebook` and open `notebooks/01_eda.ipynb`
+- Outputs: summary saved to `reports/eda_summary.md`; figures to `reports/figures/churn_rate.png` and `reports/figures/missingness_top10.png`.
+
 Repo structure (planned):
 - `data/raw/`, `data/processed/`
 - `notebooks/`
